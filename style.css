@@ -333,7 +333,48 @@ h1{
     font-size: 45px;
 }
 
-/********MAIN-CONTACTO********/
+/********MAIN-NOSOTROS********/
+
+
+.container_nosotros {
+    justify-content:space-around ;
+    align-items: center;
+    align-content: center;
+    padding-top: 2.5em;
+    background-color: #eaccad;
+    width: auto;
+    height: 65vh;
+    font-family: 'Nunito', sans-serif
+    }
+
+.main_nosotros {
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.3em;
+    background-color: #d0ab7a;
+    font-size: 1.2em;
+    border: 1.2px solid #78451a;
+    margin: 2.5em;
+    margin-top: 2.3em
+}
+
+.h3_nosotros{
+    color: #6d3c11;
+    border:2px solid #1f1e1e;
+    padding: 0.15em;  
+    border-radius: 5px;
+    background-color: #eaccad;
+}
+
+
+.main_nosotros2 {
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: -0.5em;
+    font-size: 1.5em;
+}
+
 
 /********MAIN-CONTACTO********/
 
