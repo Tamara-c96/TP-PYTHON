@@ -128,7 +128,10 @@ h2{
 #mainIndex{
     padding-top: 80px;
     width:auto ;
- 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
     height: 1400px;
     background-color:#ffedba;
     background-size: cover;
@@ -148,6 +151,12 @@ h2{
     width:700px ;
 }
 
+.div-consultas{
+    border: 2px solid #75451b;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+width: 800px;}
 
 /****MAIN-PRODUCTO****/
 
