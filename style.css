@@ -2,17 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-/*
-.jm-loadingpage {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 999999999;
-    background: url(Gif/usada-pekora.gif) center no-repeat #fff;
-}
-*/
 
 
 .miniImgs{
@@ -53,14 +42,9 @@ nav{
 .divCarrito{
     display: flex;
     font-size: 50px;
-    color: #4967ca;
+    color: #75451b;
     justify-content: center;
     width: 150px;
-}
-
-
-.nombrePag{
-    width: 200px;
 }
 
 .iconoInicio{
@@ -154,7 +138,7 @@ h2{
     border-radius: 3px;
     display: flex;
     justify-content: space-between;
-width: 800px;}
+    width: 800px;}
 
 /****MAIN-PRODUCTO****/
 
@@ -443,16 +427,53 @@ a{
     text-decoration: none;
 }
 
+
+
+
+
+
+
+
 /*********MEDIA QUERYES********/
 
 /**PRODUCTOS**/
-/**tableta**/
-@media screen and (max-width:768px) {
 
+@media screen and (min-width:320px)  and (max-width:767px){
+
+    .divCarrito{
+        font-size: 50px;
+    }
+    
+    .iconoInicio{
+        width: 50px;
+    }
+
+    .aMenu{
+        font-size: 20px;
+    }
+
+
+    
+    #mainProductos{    
+        height: 2100px;
+    }
+
+    #divCentrado{
+        display: grid;
+        grid-template-columns: repeat(1,255px);
+        grid-template-rows: repeat(6,500px);
+        column-gap: 50px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1040px) {
     #mainProductos{    
         height: 3000px;
     }
-
 
     #divCentrado{
         display: grid;
@@ -479,18 +500,3 @@ a{
     }
 }
 
-/**celular**/
-
-@media screen and (max-width:320px) {
-
-    #mainProductos{    
-        height: 6100px;
-    }
-
-    #divCentrado{
-        display: grid;
-        grid-template-columns: repeat(1,200px);
-        grid-template-rows: repeat(12,500px);
-        column-gap: 50px;
-    }
-}
