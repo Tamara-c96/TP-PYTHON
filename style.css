@@ -440,6 +440,10 @@ a{
 
 @media screen and (min-width:320px)  and (max-width:767px){
 
+    body{
+        width: 320px;
+    }
+
     .divCarrito{
         font-size: 50px;
     }
@@ -452,19 +456,26 @@ a{
         font-size: 20px;
     }
 
-
     
     #mainProductos{    
-        height: 2100px;
+        height: 6000px;
+        width: 320px;
     }
 
     #divCentrado{
         display: grid;
-        grid-template-columns: repeat(1,255px);
-        grid-template-rows: repeat(6,500px);
+        grid-template-columns: repeat(1,245px);
+        grid-template-rows: repeat(12,500px);
         column-gap: 50px;
     }
 
+    .imgProducto{
+        width: 241px;
+    }
+
+    p{
+        font-size: 18px;
+    }
 }
 
 
