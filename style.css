@@ -431,9 +431,6 @@ a{
 
 
 
-
-
-
 /*********MEDIA QUERYES********/
 
 /**PRODUCTOS**/
@@ -475,6 +472,28 @@ a{
 
     p{
         font-size: 18px;
+    }
+
+
+    /*footer*/
+    footer{
+        width: 320px;
+        margin-right: 0px;
+        padding-right: 0px;
+
+    }
+    
+
+    
+    .pFooter , .pHeader{
+        color: #ffffff;
+        text-align: center;
+    }
+    
+
+    .divFooter{
+        width:auto;
+
     }
 }
 
