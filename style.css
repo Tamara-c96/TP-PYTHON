@@ -446,7 +446,8 @@ a{
 /*********MEDIA QUERYES********/
 
 /**PRODUCTOS**/
-@media screen and (min-width:768px) and (max-width:1024px){
+/**tableta**/
+@media screen and (max-width:768px) {
 
     #mainProductos{    
         height: 3000px;
@@ -457,6 +458,39 @@ a{
         display: grid;
         grid-template-columns: repeat(2,255px);
         grid-template-rows: repeat(6,500px);
+        column-gap: 50px;
+    }
+
+    p{
+        font-size: 15.5px;
+    }
+
+    nav{
+        height: 110px;
+    }
+
+    .iconoInicio{
+        width: 80px;
+        margin-left: 32px;
+    }
+
+    .aMenu{
+        font-size: 35px;
+    }
+}
+
+/**celular**/
+
+@media screen and (max-width:320px) {
+
+    #mainProductos{    
+        height: 6100px;
+    }
+
+    #divCentrado{
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+        grid-template-rows: repeat(12,500px);
         column-gap: 50px;
     }
 }
