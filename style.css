@@ -25,13 +25,12 @@ body{
 }
 
 
-
 p, .pBOTON , .aCompra{
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: #ffffff;
+    color: #1a1919;
 }
 /*******ICONOS******/
 .iconoX{
