@@ -131,7 +131,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items:center ;
-    height: 1400px;
+    height: 1800px;
     background-color:#ffedba;
     background-size: cover;
     background-repeat: no-repeat;
@@ -254,25 +254,7 @@ aside{
 }
 
 
-/****MAIN-INGRESAR****/
-#mainIngresar{
-    width:auto ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    margin-top: 15px;
-}
-
-.wallIngresar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 450px;
-}
-
+/********/
 
 
 .pBOTON {
