@@ -203,19 +203,37 @@ function Envio(){
 	const nom= document.getElementById("s").value;
 	const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 	const mail= document.getElementById("ss").value;
+	const numRegex= /^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$/;
 	const num= document.getElementById("sss").value;
 	const loc= document.getElementById("ssss").value;
 	const msj= document.getElementById("mensaje").value;
+	
+	
+	const error= document.getElementById("error");
+	let parrafo= "";
+	let ban=0;
 	if(nom=="" || mail=="" || num=="" || loc=="" || msj=="")
-		window.alert("Complete los campos vacios");
+		{
+			parrafo+='<br>Complete los campos vacios';
+			error.innerHTML= parrafo;
+		}
 	else
-		if (!emailRegex.test(mail))
-	  		window.alert("Mail invalido");
-		else
-			if(num.lenght<8 || num.lenght>14)
-				window.alert("Numero invalido");
-			else
-				window.alert("Envio del formulario exitoso, nos contactaremos con ustedes por medio de su información de contacto, muchas gracias.");
+		{
+			if (!emailRegex.test(mail))
+			{
+				parrafo+='<br>El correo electronico no es valido';
+				ban=1;
+			}
+			if(!numRegex.test(num))
+			{
+				parrafo+='<br>El numero de telefono no es valido';
+				ban=1;
+			}
+			if(ban==0)
+				parrafo+='<br>Envio del formulario exitoso';
+			error.innerHTML= parrafo;
+		}	
+
 }
 	
 

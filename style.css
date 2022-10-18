@@ -139,15 +139,14 @@ h2{
 
 #divPresentacion{
     margin-left: 100px;
-    height: 400px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 #imgCarrusel{
-    height: 450px;
-    width:700px ;
+    width:fit-content;
 }
 
 .div-consultas{
@@ -442,4 +441,22 @@ footer{
 
 a{
     text-decoration: none;
+}
+
+/*********MEDIA QUERYES********/
+
+/**PRODUCTOS**/
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    #mainProductos{    
+        height: 3000px;
+    }
+
+
+    #divCentrado{
+        display: grid;
+        grid-template-columns: repeat(2,255px);
+        grid-template-rows: repeat(6,500px);
+        column-gap: 50px;
+    }
 }
