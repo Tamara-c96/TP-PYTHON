@@ -428,7 +428,7 @@ a{
 
 
 
-/*********MEDIA QUERYES********/
+/********************MEDIA QUERYES********/
 
 /**PRODUCTOS.HTML**/
 
@@ -537,6 +537,9 @@ a{
 
 
 @media screen and (min-width:768px) and (max-width:1040px) {
+    /**NOSOTROS.HTML**/
+    
+    /**PRODUCTOS.HTML**/
     #mainProductos{    
         height: 3000px;
     }
