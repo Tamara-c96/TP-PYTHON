@@ -293,7 +293,7 @@ h1{
 }
 
 /********MAIN-NOSOTROS********/
-.container_nosotros {
+#mainNosotros{
     justify-content:space-around ;
     align-items: center;
     align-content: center;
@@ -563,6 +563,12 @@ a{
 
     .aMenu{
         font-size: 35px;
+    }
+
+    /**MAIN-CONTACTO**/
+
+    .formContacto label{
+        font-size: 17px;
     }
 }
 
