@@ -435,7 +435,14 @@ a{
 @media screen and (min-width:320px)  and (max-width:767px){
 
     /*nav*/
+    nav{
+        display: flex;
+        justify-content: space-around; 
+        padding-bottom: 15px;     
+    }
+
     #barraSuperior{
+        gap: 10px;
         width: 320px;
     }
 
@@ -444,7 +451,17 @@ a{
         margin-left: 0px;
         display: flex;  
     }
+    .divCarrito{
+        font-size: 40px;
+        width: 55px;
+    }
 
+    #barraSuperior{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+    }
 
     /*header*/
 
@@ -463,9 +480,6 @@ a{
         width: 320px;
     }
 
-    .divCarrito{
-        font-size: 50px;
-    }
     
     .iconoInicio{
         width: 50px;
